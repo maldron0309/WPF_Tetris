@@ -21,7 +21,6 @@ namespace Tetris
         /// 위치의 열을 나타내는 속성입니다.
         /// </summary>
         public int Column { get; set; }
-        public int Coloumn { get; internal set; }
 
         /// <summary>
         /// 'Position' 클래스의 생성자입니다. 행과 열의 위치를 인자로 받아 위치를 초기화합니다.
