@@ -79,5 +79,10 @@ namespace Tetris
             offset.Row = StartOffset.Row;
             offset.Column = StartOffset.Column;
         }
+
+        internal void Move(double v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

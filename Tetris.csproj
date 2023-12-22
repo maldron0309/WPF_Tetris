@@ -55,6 +55,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="BlockQueue.cs" />
+    <Compile Include="SBlock.cs" />
+    <Compile Include="TBlock.cs" />
+    <Compile Include="ZBlock.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -66,12 +70,15 @@
     <Compile Include="Block.cs" />
     <Compile Include="GameGrid.cs" />
     <Compile Include="IBlock.cs" />
+    <Compile Include="JBlock.cs" />
+    <Compile Include="LBlock.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OBlock.cs" />
     <Compile Include="Position.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
