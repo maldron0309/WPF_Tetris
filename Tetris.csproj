@@ -56,6 +56,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="BlockQueue.cs" />
+    <Compile Include="GameState.cs" />
     <Compile Include="SBlock.cs" />
     <Compile Include="TBlock.cs" />
     <Compile Include="ZBlock.cs" />
@@ -104,6 +105,26 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Background.png" />
+    <Resource Include="Assets\Block-Empty.png" />
+    <Resource Include="Assets\Block-I.png" />
+    <Resource Include="Assets\Block-J.png" />
+    <Resource Include="Assets\Block-L.png" />
+    <Resource Include="Assets\Block-O.png" />
+    <Resource Include="Assets\Block-S.png" />
+    <Resource Include="Assets\Block-T.png" />
+    <Resource Include="Assets\Block-Z.png" />
+    <Resource Include="Assets\Icon.ico" />
+    <Resource Include="Assets\TileBlue.png" />
+    <Resource Include="Assets\TileCyan.png" />
+    <Resource Include="Assets\TileEmpty.png" />
+    <Resource Include="Assets\TileGreen.png" />
+    <Resource Include="Assets\TileOrange.png" />
+    <Resource Include="Assets\TilePurple.png" />
+    <Resource Include="Assets\TileRed.png" />
+    <Resource Include="Assets\TileYellow.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
